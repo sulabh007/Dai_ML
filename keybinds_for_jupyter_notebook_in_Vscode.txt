@@ -1,0 +1,21 @@
+ { "key": "ctrl+z", "command": "-undo" },
+    { "key": "ctrl+z", "command": "undo", "when": "!notebookEditorFocused || inputFocus" },
+    { "key": "ctrl+shift+z", "command": "-redo" },
+    { "key": "ctrl+shift+z", "command": "redo", "when": "!notebookEditorFocused || inputFocus" },
+    { "key": "ctrl+y", "command": "-redo" },
+    { "key": "ctrl+y", "command": "redo", "when": "!notebookEditorFocused || inputFocus" },
+    {
+        "key": "z",
+        "command": "-undo",
+        "when": "notebookEditorFocused && !inputFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "notebook.cell.changeToMarkdown",
+        "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused && activeEditor == 'workbench.editor.notebook' && notebookCellType == 'code'"
+    },
+    {
+        "key": "m",
+        "command": "-notebook.cell.changeToMarkdown",
+        "when": "notebookEditorFocused && !inputFocus && !notebookOutputFocused && activeEditor == 'workbench.editor.notebook' && notebookCellType == 'code'"
+    },
