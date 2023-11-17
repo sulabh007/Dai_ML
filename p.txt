@@ -1,0 +1,7 @@
+C3Y.hv~@jU6#6G6
+
+https://syntaxfix.com/question/18276/change-ipython-jupyter-notebook-working-directory
+
+https://stackoverflow.com/questions/52310689/use-ipython-repl-in-vs-code
+
+https://www.reddit.com/r/learnpython/comments/ibcnaj/im_looking_for_a_better_dataframe_viewer_for/
